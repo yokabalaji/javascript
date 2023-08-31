@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>For Loop Using Array Concept with List</h2>
+    <p id="1"></p>
+<script>
+    const a=["money","gives","many"];
+    let b=a.length;
+ let text="<ul>" ; 
+    for (let i=0;i<b;i++){
+   text+="<li>"+a[i]+"</li>";
+    }
+    text+="</ul>";
+    document.getElementById("1").innerHTML=text;
+</script>    
+</body>
+</html>

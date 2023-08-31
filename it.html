@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iterator</title>
+</head>
+<body>
+    <h2>itherator</h2>
+    <p id="1"></p>
+    <script>
+        let a="the cats are go to the hospital the doctor cats it will said some rules Cats";
+        const iterator=a.matchAll(/cats/gi);
+        document.getElementById("1").innerHTML=Array.from(iterator);
+        
+    </script>
+    
+</body>
+</html>

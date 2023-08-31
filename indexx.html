@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Index method</h2>
+    <p id="1"></p>
+    <script>
+const a=[
+    {name:"ravi",male:"yes"}, 
+    {name:"sathi",male:"yes"},
+    {name:"malaa",male:"yes"}
+
+];
+document.getElementById("1").innerHTML=a.every(fun);
+
+function fun(ele,index,arr){
+    if(index===0){
+        return true;
+    }else{
+     return ele.male===arr[index-1].male;
+    }
+
+}
+
+    </script>
+
+</body>
+</html>

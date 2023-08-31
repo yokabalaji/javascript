@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Entries</h1>
+    <p id="1"></p>
+    <script>
+        const a=["banana","orange","apple","mango"];
+        const f=a.entries();
+        for (let x of f){
+        document.getElementById("1").innerHTML+=x+"<br>";
+        }
+    </script>
+</body>
+</html>

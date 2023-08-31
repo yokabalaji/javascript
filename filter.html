@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Filter array method</h2>
+<p id="demo"></p>
+<input type="number" id="1" value="30">
+    <button   onclick="num()">text</button>
+    <script>
+        const a=[12,34,45,56];
+        function bu(num){
+         return num != document.getElementById("1").value;
+        }
+function num(){
+    document.getElementById("demo").innerHTML=a.filter(bu);
+
+}
+    </script>
+
+</body>
+</html>
